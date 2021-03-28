@@ -5,4 +5,4 @@ ENV ANDROID_HOME=/workspace/android-sdk \
     FLUTTER_HOME=/workspace/flutter
 
 RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh \
-             && sdk install java 8.0.242.j9-adpt"
+             && sdk install java 9.0.4-openjdk"
